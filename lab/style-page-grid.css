@@ -1,0 +1,138 @@
+body { 
+    font-family: 'Delius', cursive; 
+    background-image: url(images/bg.png);
+}
+
+header {
+    padding: 10px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#nav-labs ul {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+header {
+    font-family: 'Syncopate', sans-serif;
+    border-bottom: 0.1vw solid #404040;
+}
+
+#logo { 
+    height: 6vh; 
+}
+
+#nav-labs ul {
+    padding: 2vh 1vw;
+    border: 0.1vw solid #404040;
+    border-radius: 0.5vw;
+    background-color:  #d9d9d9;
+    list-style: none;
+}
+
+footer {
+    margin-top: 10vh;
+    border-top: 0.1vw solid #404040;
+}
+
+.panel {
+    border: 0.1vw solid #404040;
+    border-radius: 0.5vw;
+    padding: 1vw;
+    margin: 1vh 0;
+}
+
+/* Grid layout, header, 2 columns (sidebar nav, content), footer */
+body {
+    display: grid;
+    grid-template-areas: 
+        "header header"
+        "sidebar content"
+        "footer footer";
+    grid-template-columns: 1fr 3fr;
+    grid-gap: 1em;
+}
+
+header { grid-area: header; 
+background-color: #d9d9d9;}
+
+section { grid-area: content; }
+
+nav { 
+    grid-area: sidebar;
+    -ms-grid-row-align: stretch;
+}
+
+footer { grid-area: footer; 
+background-color: #d9d9d9;
+padding: 20px;}
+
+#nav-labs a {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    text-decoration: none;
+    color: purple;
+}
+
+a:hover{
+    text-decoration: none;
+    color:rebeccapurple;
+}
+
+.button1{
+	padding: 8px 15px;
+	border-radius: 4px;
+	outline: none;
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: 500;
+	text-decoration: none;
+	letter-spacing: 1px;
+	transition: all .5s ease;
+	background: #ffa31a;
+	color: white;
+}
+
+.button1:hover{
+	background: #00ace6;
+}
+
+#section-mark-calculator{
+    padding: 20px;
+    align-content: center;
+    border: 2mm;
+    border-color:lightslategray;
+    border-radius: 4mm;
+    background-color: #d9d9d9;
+}
+
+#nav-labs ul li{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#button-calculate{
+    padding: 6px 10px;
+	border-radius: 4px;
+	outline: none;
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: 500;
+	text-decoration: none;
+	letter-spacing: 1px;
+	transition: all .5s ease;
+	background: #00b300;
+    text-shadow: lightslategray;
+	color: white;
+}
+
+#button-calculate:hover{
+    background: #008000;
+}

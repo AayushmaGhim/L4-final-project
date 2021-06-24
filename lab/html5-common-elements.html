@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Lab exercise html5</title>
+        <meta charset="utf-8" />
+        <meta name="author" content="Aayushma Ghimire" />
+        <meta name="Lab exercise" content="HTML5 lab exercises" />
+    </head>
+    <body>
+
+        <nav>
+            <h1>HTML5 Common Elements</h1>
+            <ul>
+                <li>
+                    <a href="html5-structural-elements.html#html5-elements">HTML5 Structural elements</a>
+                </li>
+                <li>
+                    <a href="html5-validation.html">HTML5 Validation</a>
+                </li>
+                <li>HTML5 Common elements</li>
+                <li>
+                    <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element#Inline_text_semantics">MDN Inline Text Semantics</a>
+                </li>
+            </ul>
+        </nav>
+
+        <figure>
+            <img src="images/star.svg" alt="Example SVG image" />
+            <img src="images/star.png" alt="Example PNG image" />
+            <figcaption>SVG and PNG format comparison.</figcaption>
+            <p>Try clicking the picture:</p>
+            <a href="https://en.wikipedia.org/wiki/ Scalable_Vector_Graphics">
+                <img src="images/star.svg" alt="Image formats" /> Read about image formats
+             </a>
+        </figure> 
+
+        <div id="div-example" class="highlight">
+            <p>Any number of element to be grouped into one division</p>
+        </div>
+        
+        <p>The following is part of a paragraph <span class="highlight">wrapped in a span element</span> so that it can be selected</p>
+
+        <blockquote cite="http://developer.mozilla.org">
+            <p>This is a citation taken from the Mozilla Developer Center.</p>
+        </blockquote>
+
+        <p>In the new world of semantic markup,
+            <q cite="http://ebbi.github.io">
+                Separation of content from how it is presented is key to modern web development.
+            </q>
+        </p>
+
+        <form method="get" action="server_program_name">
+
+            <label for="email">Email: </label>
+            <input type="text" id="email" name="email" />
+
+            <label for="password">Password: </label>
+            <input type="password" id="password" name="password" />
+
+            <button type="submit" value="submit">Sign in</button>
+
+            <p>Choose your favorite colour:
+                <input type="radio" name="color" value="red" checked="checked"/> Red
+                <input type="radio" name="color" value="green"/> Green
+                <input type="radio" name="color" value="blue"/> Blue
+            </p>
+            <p>
+                Which is your favorite pass time?
+                <input type="radio" name="hobby" value="travel"/> Travel 
+                <input type="radio" name="hobby" value="food"/> Food 
+                <input type="radio" name="hobby" value="sky-diving"/> Sky Diving 
+            </p>
+            <p>Select your favorite color(s): 
+                <input type="checkbox" name="red" value="true" checked="checked" /> red
+                <input type="checkbox" name="green" value="true" /> green
+                <input type="checkbox" name="blue" value="true" checked="checked" /> blue
+            </p>
+        </form>
+
+        <form method="post" enctype="multipart/form-data" action="my_server_prog">
+            <p>
+               <label for="fileupload">Please choose a file to upload: </label>
+               <input type="file" id="fileupload" name="file1" />
+            </p>
+         </form>
+    </body>
+</html>

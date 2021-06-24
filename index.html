@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Home</title>
+        <meta charset="utf-8" />
+        <meta name="author" content="Aayushma Ghimire" />
+        <meta name="Final Project" content="Home Page" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <link href="style.css" rel="stylesheet" type="text/css" />
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+    <header>
+        <div class="wrapper">
+            <div class="logo">
+                <img src="images/logo.jpg" alt="logo">
+            </div>
+            <ul class="nav-area" id="myTopnav">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+        <script>
+            function myFunction() {
+             var x = document.getElementById("mynav-area");
+             if (x.className === "nav-area") {
+                x.className += " responsive";
+                } 
+                else {
+                    x.className = "nav-area";
+                }
+            } 
+        </script>
+
+    <div class="welcome-text">
+        <h1>Feel The Nature<br></h1>            
+        <a href="#">Contact Us</a>
+    </div>
+
+    </body>
+</html>
