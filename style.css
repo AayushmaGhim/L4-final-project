@@ -14,7 +14,27 @@ header{
     height: 100vh;
 }
 
-.navbar-green{
-    background-color: #70b2d9;
-background-image: var-(linear-gradient(315deg, #70b2d9 0%, #39e5b6 74%));
+.navbar{
+    background: rgba(0,0,0,.5);
+}
+
+.navbar-brand{
+    margin-left: 15px;
+}
+
+.nav-link{
+    color: rgb(246, 246, 246) !important;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.navbar-nav li a:active{
+    color: #3af8a9ec;
+}
+
+.navbar-nav li a:hover{
+    background: #3af8a9ec;
+    color: #000000 !important;
 }
