@@ -26,9 +26,23 @@
     margin-left: 15px;
 }
 
+.navbar-toggler{
+    margin-right: 15px;
+}
+
+@media (max-width: 767px) {
+    .fl-page-nav-toggle-button.fl-page-nav-toggle-visible-mobile .fl-page-nav-collapse {
+        background-color: rgba(243, 234, 109, 0.753);
+    }
+} 
+
 .navbar-nav{
     vertical-align: top;
 }
+
+/*.navbar-text{
+    
+}*/
 
 .nav-link{
     color: rgb(246, 246, 246) !important;
@@ -39,12 +53,20 @@
 }
 
 .navbar-nav .active{
-    border-bottom: #ffffff !important;
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+    border-bottom-color: #ffffff !important;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
 }
 
 .navbar-nav li a:hover{
-    background: #3af8a9ec;
-    color: #000000 !important;
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+    border-bottom-color: #ffffff !important;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    transition: all .2s ease-out ;
 }
 
 /* Banner Area Css */
@@ -92,8 +114,9 @@
 }
 
 .carousel-caption h1{
-    font-family: 'La Belle Aurore', cursive;
-    font-size: 50px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 70px;
+    letter-spacing: 3px;
 }
 
 .carousel-caption p{
