@@ -30,11 +30,7 @@
     margin-right: 15px;
 }
 
-@media (max-width: 767px) {
-    .fl-page-nav-toggle-button.fl-page-nav-toggle-visible-mobile .fl-page-nav-collapse {
-        background-color: rgba(243, 234, 109, 0.753);
-    }
-} 
+
 
 .navbar-nav{
     vertical-align: top;
@@ -104,7 +100,7 @@
 
 .d-block{
     width:100%;
-    height: 400px;
+    height: 550px;
 }
 
 .carousel-caption {
