@@ -85,14 +85,18 @@
     height: 400px;
 }
 
-.carousel-caption{
+.carousel-caption {
     transform: translateY(-50%);
     bottom: initial;
-    top: 60%;
+    top: 55%;
 }
 
-.carousel-caption .h2{
-    font-size: 60px;
+.carousel-caption h1{
+    font-family: 'La Belle Aurore', cursive;
+    font-size: 50px;
 }
 
+.carousel-caption p{
+    font-size: 25px;
+}
 
