@@ -11,8 +11,11 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet"> <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet"> 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap" rel="stylesheet">
     </head>
     <body>
         <header>
@@ -61,23 +64,49 @@
         <div class="container">
             <div class="navbar navbar-expand-lg navbar-dark fixed-top">
                 <a href="#" class="navbar-brand"><img clas="logo" src="images/logo.png" alt="logo" width="140px" height="60px"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#toggleMobileMenu" aria-controls="toggleMobileMenu" aria-expanded="false" aria-lable="Toggle navigation" >
-                    <span class="navbar-toggler-icon"></span>
+                <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#toggleMobileMenu" aria-controls="toggleMobileMenu" aria-expanded="false" aria-lable="Toggle navigation" id="demo">
+                    <span class="line"></span> 
+                    <span class="line"></span> 
+                    <span class="line" style="margin-bottom: 0;"></span>
                 </button>
                 <div class="collaspe navbar-collapse" id="toggleMobileMenu">
-                    <ul class="navbar-nav ms-auto text-center">
-                        <li class="navbar-text"><a class="nav-link active" aria-current="page" href="#">Home</a></li>
-                        <li class="navbar-text"><a class="nav-link" href="#">About</a></li>
-                        <li class="navbar-text"><a class="nav-link" href="#">Services</a></li>
-                        <li class="navbar-text"><a class="nav-link" href="#">Packages</a></li>
-                        <li class="navbar-text"><a class="nav-link" href="#">Gallery</a></li>
-                        <li class="navbar-text"><a class="nav-link" href="#">Contact</a></li>
-                        <li class="navbar-text"><a class="nav-link" href="#">Lab</a></li>
+                    <ul class="navbar-nav ms-auto navbar-expand-lg text-center">
+                        <li><a class="nav-link active" aria-current="page" href="#">Home</a></li>
+                        <li><a class="nav-link" href="#">About</a></li>
+                        <li><a class="nav-link" href="#">Services</a></li>
+                        <li><a class="nav-link" href="#">Packages</a></li>
+                        <li><a class="nav-link" href="#">Gallery</a></li>
+                        <li><a class="nav-link" href="#">Contact</a></li>
+                        <li><a class="nav-link" href="#">Lab</a></li>
                     </ul>
                 </div>
             </div>
+            <!--<script type="text/javascript">
+                 $(".navbar-toggler").click(function(event, c){
+                $(event.target).addClass("disabled");
+                 $("nav").toggleClass("navbar-yellow");
+                  setTimeout(()=>{
+                    $(event.target).removeClass("disabled");
+                },500);
+                })
+            </script>-->
         </div>
         </div>
         </header>
+
+        <!--Content Area-->
+        <div class="welcome">
+          <p class="big"><b>Welcome To COOP Resort</b></p>
+          <p class="smol">Experience The Beauty Of Southern Lalitpur</p>
+        </div>
+
+        <hr class="line"/>
+
+        <img src="images/background2.jpg" alt="Hotel-view" class="image">
+
+        <hr class="line"/>
+
+        <div>
+        
     </body>
 </html>
