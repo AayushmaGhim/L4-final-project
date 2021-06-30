@@ -19,7 +19,8 @@
 .navbar{
     /*background: rgba(0,0,0,.5);*/
     /*background: linear-gradient((0,0,0,.8),(0,0,0,.0));*/
-    background: linear-gradient(to bottom,rgba(0, 0, 0, 0.829) 0%,rgba(73, 73, 72, 0) 100%);
+    background: #ffffff;
+    color:black;
 }
 
 @media (max-width: 991px) {
@@ -32,35 +33,22 @@
         display: inline !important;
         margin: 3px;
         padding:2px;
-        background:#000066;
-        color:rgb(246, 246, 246);
-        border-bottom-width: 3px;
-        border-bottom-style: solid;
-        border-bottom-color: #ffffff !important;
-        border-bottom-right-radius: 2px;
-        border-bottom-left-radius: 2px;
+        color:#000000 !important;
     }
     
     .navbar-nav .active{
-        background:#05052a;
-        color:rgb(246, 246, 246);
+        background:#000000;
+        color:#ffffff !important;
     }
     
     .navbar-nav li a:hover{
-        background:#05052a;
-        color:rgb(246, 246, 246);
-        border-bottom-width: 3px;
-        border-bottom-style: solid;
-        border-bottom-color: #ffffff !important;
-        border-bottom-right-radius: 2px;
+        background:#000000;
+        color:#ffffff !important;
         transition: all .2s ease-out ;
     }  
 }
 
-.navbar-yellow {
-    background-color: yellow !important;
-  }
-  .disabled {
+.disabled {
     pointer-events: none;
   }
 
@@ -81,7 +69,7 @@
 }*/
 
 .nav-link{
-    color: rgb(246, 246, 246) !important;
+    color: #000000 !important;
     font-size: 18px;
     font-family: 'Montserrat', sans-serif;
     margin-left: 15px;
@@ -91,7 +79,7 @@
 .navbar-nav .active{
     border-bottom-width: 3px;
     border-bottom-style: solid;
-    border-bottom-color: #ffffff !important;
+    border-bottom-color: #000000 !important;
     border-bottom-right-radius: 2px;
     border-bottom-left-radius: 2px;
 }
@@ -99,7 +87,7 @@
 .navbar-nav li a:hover{
     border-bottom-width: 3px;
     border-bottom-style: solid;
-    border-bottom-color: #ffffff !important;
+    border-bottom-color: #000000 !important;
     border-bottom-right-radius: 2px;
     border-bottom-left-radius: 2px;
     transition: all .2s ease-out ;
@@ -114,7 +102,7 @@
     width: 100%;
     float: left;
     height: 2px;
-    background-color: #fff;
+    background-color: #000000;
     margin-bottom: 5px;
 }
 /* Banner Area Css */
@@ -152,7 +140,7 @@
 
 .d-block{
     width:100%;
-    height: 450px;
+    height: 470px;
 }
 
 .carousel-caption {
@@ -175,7 +163,7 @@
 /* content Area*/
 
 .welcome p{
-    margin: 2px;
+    margin: 4px;
     text-align: center;
 }
 
@@ -196,11 +184,8 @@
     text-transform: uppercase;
 }
 
-.line{
-    margin-left: 8%;
-    margin-right: 8%;
-    margin-top: 2%;
-    margin-bottom: 2%;
+.hor-line{
+    margin: 30px 5%;
     position: center center;
     height: 5px;
     opacity: 100%;
@@ -209,8 +194,120 @@
 
 .image{
     margin-left: 8%;
-    margin-right: 8%;
+    margin-right: 4%;
     height: 400px;
     width: 84%;
     position: center;
+}
+
+.line-2{
+    margin-bottom: 33px;
+}
+
+.topic-header{
+    text-align: center;
+    margin-bottom: 16px;
+    font-family: 'Cinzel', serif;
+    letter-spacing: 2.5px;
+}
+
+.section{
+    text-align:justify;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+.hotel-view{
+    margin-right: 2%;
+    height: 190px;
+    width: 390px;
+    float: left;
+}
+
+
+.about-content p{
+    font-size: 20px;
+    padding-top: 3.5%;
+}
+
+.see-more{
+    text-decoration: none;
+    font-family: 'Cinzel', serif;
+    color:#6b6b6b;
+    margin: 5px 5px;
+    padding: 3px 10px;
+    border-color: #6b6b6b;
+    border-width: 1px;
+    border-style: solid;
+    letter-spacing: 1.5px;
+    word-spacing: 5px;
+}
+
+.see-more:hover{
+    padding: 5px 15px;
+    font-size: 22px;
+    border-color: #000000;
+    color:#000000;
+    transition: all .5s ease;
+}
+
+.line-3{
+    margin-top: 40px;
+    margin-bottom: 33px;
+}
+
+.service-picture{
+    margin-left: 2%;
+    height: 190px;
+    width: 390px;
+    float: right;
+}
+
+.service-content p{
+    font-size: 20px;
+    padding-top: 3.5%;
+}
+
+
+/* Footer part*/
+
+
+footer{
+    bottom: 0%;
+    background-color: rgb(233, 229, 229);
+    text-align: center;
+}
+
+.explore{
+    padding-top: 15px;
+    font-size: 25px;
+}
+
+.footer-nav a{
+    text-decoration: none;
+    color: #000000;
+    padding: 0px 20px;
+}
+
+.footer-logo{
+    margin: 10px;
+    height: 70px;
+    width: 100px;
+}
+
+.footer-contact{
+    font-size: 25px;
+}
+
+.footer-contact img{
+    height: 40px;
+    width: 40px;
+    margin: 0px 25px;
+}
+
+.copyright{
+    margin-top: 10px;
+    padding: 10px;
+    color:#ffffff;
+    background-color: black;
 }
