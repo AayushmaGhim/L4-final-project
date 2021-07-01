@@ -3,22 +3,7 @@
     padding: 0;
 }
 
-/*header{
-    background-image: url(images/background.png);
-    position: center center;
-    display: flex;
-    flex-direction: column;
-    background-size: cover;
-    -webkit-background-size: cover;
-    width: 100%;
-    height: 80vh;
-}
-
-/* Navigation css */
-
 .navbar{
-    /*background: rgba(0,0,0,.5);*/
-    /*background: linear-gradient((0,0,0,.8),(0,0,0,.0));*/
     background: #ffffff;
     color:black;
 }
@@ -101,62 +86,11 @@
     background-color: #000000;
     margin-bottom: 5px;
 }
-/* Banner Area Css */
 
-/*.welcome{
-    color: white;
-    font-size: 50px;
-    position: center;
-    text-align: center;
-    top: 50%;
-}
-
-.message{
-    color: white;
-    font-size: 30px;
-    position: center;
-    text-align: center;
-    top: 70%;
-}
-
-.contact{
-    font-size: 40px;
-    border: 2px;
-    border-width: 2px;
-    border-color: #ffffff;
-    border-style: solid;
-    position: center;
-    text-align: center;
-}
-
-.contact a{
-    text-decoration: none;
-    color: white;
-}*/
-
-.d-block{
+.banner-photo img{
     width:100%;
-    height: 470px;
+    height: 380px;
 }
-
-.carousel-caption {
-    transform: translateY(-50%);
-    bottom: initial;
-    top: 55%;
-}
-
-.carousel-caption h1{
-    font-family: 'Dancing Script', cursive;
-    font-size: 70px;
-    letter-spacing: 3px;
-}
-
-.carousel-caption p{
-    font-size: 25px;
-}
-
-
-/* content Area*/
 
 .welcome p{
     margin: 4px;
@@ -165,20 +99,12 @@
 
 .big{
     color: #1a1a1a;
-    font-size: 80px;
-    word-spacing: 15px;
+    font-size: 85px;
+    word-spacing: 10px;
     font-family: 'Tangerine', cursive;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
-.smol{
-    padding: 1px;
-    font-size: 25px;
-    font-family: 'Cinzel', serif;
-    letter-spacing: 3px;
-    word-spacing: 10px;
-    text-transform: uppercase;
-}
 
 .hor-line{
     margin: 30px 5%;
@@ -188,81 +114,52 @@
     color: #000000 !important;
 }
 
-.image{
-    margin-left: 8%;
-    margin-right: 4%;
-    height: 400px;
-    width: 84%;
-    position: center;
-}
-
-.line-2{
-    margin-bottom: 33px;
-}
-
-.topic-header{
+.inline-nav{
     text-align: center;
-    margin-bottom: 16px;
-    font-family: 'Cinzel', serif;
-    letter-spacing: 2.5px;
 }
 
-.section{
-    text-align:justify;
-    margin-left: 8%;
-    margin-right: 8%;
-}
-
-.hotel-view{
-    margin-right: 2%;
-    height: 190px;
-    width: 390px;
-    float: left;
-}
-
-
-.about-content p{
-    font-size: 20px;
-    padding-top: 3.5%;
-}
-
-.see-more{
+.inline-nav a{
     text-decoration: none;
+    font-size: 20px;
     font-family: 'Cinzel', serif;
-    color:#6b6b6b;
-    margin: 5px 5px;
+    color:#000000;
+    margin: 5px 8px;
     padding: 3px 10px;
-    border-color: #6b6b6b;
+    border-color: #000000;
     border-width: 1px;
     border-style: solid;
     letter-spacing: 1.5px;
     word-spacing: 5px;
 }
 
-.see-more:hover{
+.inline-nav a:hover{
     padding: 5px 15px;
     font-size: 22px;
-    border-color: #000000;
-    color:#000000;
+    background-color: #000000;
+    color:#ffffff;
     transition: all .5s ease;
 }
 
-.line-3{
-    margin-top: 40px;
-    margin-bottom: 33px;
+.gallery-content h1{
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    word-spacing: 8px;
+    letter-spacing: 3px;
 }
 
-.service-picture{
-    margin-left: 2%;
-    height: 190px;
-    width: 390px;
-    float: right;
+.image-area{
+    margin: 15px 6%;
 }
 
-.service-content p{
-    font-size: 20px;
-    padding-top: 3.5%;
+.image-area img{
+    margin:10px;
+	width: 370px;
+	height: 290px;
+    align-items: center;
+    position: relative;
 }
+
+
 
 
 /* Footer part*/
