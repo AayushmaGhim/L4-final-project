@@ -14,13 +14,21 @@
       width: 350px;
     }
 
+    .content-area{
+      align-items: center;
+      background-color: rgb(0, 199, 182);
+      border-radius: 8px;
+      padding: 15px;
+    }
+
     label {
+      text-align: center;
       font-weight: bold;  
     }
 
-    div {
+    /*div {
       padding-bottom: 20px;
-    }
+    }*/
 
     input[type="text"] {
       padding: 5px;
@@ -28,31 +36,36 @@
     }
 
     p {
-      background: #FFC125;
-      color: #5E2612;
+      background: #7c15ac;
+      color: #ffffff;
+      text-shadow: slategrey;
       padding: 10px;
       visibility: hidden;
     }
 
+    .content{
+      padding:10px;
+    }
+
     </style>
+    <script src="javascript.js"></script>
   </head>
 
   <body>
-    <div>
+    <div class="content-area">
+    <div class="content">
       <label for="customname">Enter custom name:</label>
       <input id="customname" type="text" placeholder="">
     </div>
-    <div>
+    <div class="content">
       <label for="us">US</label><input id="us" type="radio" name="ukus" value="us" checked>
       <label for="uk">UK</label><input id="uk" type="radio" name="ukus" value="uk">
     </div>
-    <div>
+    <div class="content">
       <button class="randomize">Generate random story</button>
     </div>
-    <!-- Thanks a lot to Willy Aguirre for his help with the code for this assessment -->
     <p class="story"></p>
-    
-
-    
+    </div>
+    <script src="javascript.js"></script>
   </body>
 </html>
