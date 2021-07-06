@@ -16,7 +16,7 @@
     .navbar-nav{
         border-bottom: solid 2px black;
     }
-    
+
     .nav-link{
         font-size: 25px;
         font-family: 'Montserrat', sans-serif;
@@ -42,6 +42,14 @@
         font-size: 60px;
         word-spacing: 10px;
         font-family: 'Tangerine', cursive;
+    }
+
+    .inline-nav a:hover{
+        padding: 5px 15px;
+        font-size: 22px;
+        background-color: #000000 !important;
+        color:#ffffff;
+        transition: all .5s ease;
     }
 }
 
@@ -119,64 +127,78 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
 
 .hor-line{
-    margin: 20px 5%;
+    margin: 30px 5%;
     position: center center;
     height: 5px;
     opacity: 100%;
     color: #000000 !important;
 }
 
-
-
-/*Content area*/
-
-input[type=text], select, textarea {
-    width: 100%;
-    padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-  }
-
-  input[type=submit] {
-    background-color: #4CAF50;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-
-  input[type=submit]:hover {
-    background-color: #45a049 !important;
-  }
-
-  .contact {
-    padding: 20px;
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    margin: 1% 8%;
-  }
-
-  .info{
-      padding:6px !important;
-  }
-
-  .map{
-      margin-left:8%;
-  }
-
-  
-
-/* Footer part*/
-
 .line-3{
     margin-top: 40px;
     margin-bottom: 33px;
 }
+
+
+/*content-area*/
+
+.inline-nav{
+    text-align: center;
+}
+
+.inline-nav a{
+    display:inline-flex;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Cinzel', serif;
+    color:#000000;
+    margin-top: 5px !important;
+    margin-bottom: 5px !important;
+    margin-left: 8px;
+    margin-right: 8px;
+    padding: 3px 10px;
+    border-color: #000000;
+    border-width: 1px;
+    border-style: solid;
+    letter-spacing: 1.5px;
+    word-spacing: 5px;
+}
+
+.inline-nav a:hover{
+    padding: 5px 15px;
+    font-size: 22px;
+    background-color: #000000 !important;
+    color:#ffffff;
+    transition: all .5s ease;
+}
+
+.gallery-content h1{
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    word-spacing: 8px;
+    letter-spacing: 3px;
+}
+
+.image-area{
+    margin: 15px 6%;
+    display: flex;
+    flex-direction: row !important;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.image-area img{
+    margin:10px;
+	width: 300px;
+	height: 220px;
+}
+
+
+
+
+/* Footer part*/
 
 
 footer{
@@ -211,6 +233,12 @@ footer{
     width: 40px;
     margin: 0px 25px;
 }
+
+.footer-contact img:hover{
+    height: 43px;
+    width: 43px;
+}
+
 
 .copyright{
     margin-top: 10px;

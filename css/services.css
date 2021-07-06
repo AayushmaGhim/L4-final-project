@@ -3,22 +3,7 @@
     padding: 0;
 }
 
-/*header{
-    background-image: url(images/background.png);
-    position: center center;
-    display: flex;
-    flex-direction: column;
-    background-size: cover;
-    -webkit-background-size: cover;
-    width: 100%;
-    height: 80vh;
-}
-
-/* Navigation css */
-
 .navbar{
-    /*background: rgba(0,0,0,.5);*/
-    /*background: linear-gradient((0,0,0,.8),(0,0,0,.0));*/
     background: #ffffff;
     color:black;
 }
@@ -27,10 +12,11 @@
     li{
         display: grid;
     }
+
     .navbar-nav{
         border-bottom: solid 2px black;
     }
-    
+
     .nav-link{
         font-size: 25px;
         font-family: 'Montserrat', sans-serif;
@@ -50,6 +36,13 @@
         color:#ffffff !important;
         transition: all .2s ease-out ;
     }  
+
+    .big{
+        color: #1a1a1a;
+        font-size: 60px;
+        word-spacing: 10px;
+        font-family: 'Tangerine', cursive;
+    }
 }
 
 .disabled {
@@ -105,62 +98,11 @@
     background-color: #000000;
     margin-bottom: 5px;
 }
-/* Banner Area Css */
 
-/*.welcome{
-    color: white;
-    font-size: 50px;
-    position: center;
-    text-align: center;
-    top: 50%;
-}
-
-.message{
-    color: white;
-    font-size: 30px;
-    position: center;
-    text-align: center;
-    top: 70%;
-}
-
-.contact{
-    font-size: 40px;
-    border: 2px;
-    border-width: 2px;
-    border-color: #ffffff;
-    border-style: solid;
-    position: center;
-    text-align: center;
-}
-
-.contact a{
-    text-decoration: none;
-    color: white;
-}*/
-
-.d-block{
+.banner-photo img{
     width:100%;
-    height: 470px;
+    height: 380px;
 }
-
-.carousel-caption {
-    transform: translateY(-50%);
-    bottom: initial;
-    top: 55%;
-}
-
-.carousel-caption h1{
-    font-family: 'Dancing Script', cursive;
-    font-size: 70px;
-    letter-spacing: 3px;
-}
-
-.carousel-caption p{
-    font-size: 25px;
-}
-
-
-/* content Area*/
 
 .welcome p{
     margin: 4px;
@@ -169,108 +111,110 @@
 
 .big{
     color: #1a1a1a;
-    font-size: 80px;
-    word-spacing: 15px;
+    font-size: 85px;
+    word-spacing: 10px;
     font-family: 'Tangerine', cursive;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
-.smol{
-    padding: 1px;
-    font-size: 25px;
-    font-family: 'Cinzel', serif;
-    letter-spacing: 3px;
-    word-spacing: 10px;
-    text-transform: uppercase;
-}
 
 .hor-line{
-    margin: 30px 5%;
+    margin: 20px 5%;
     position: center center;
     height: 5px;
     opacity: 100%;
     color: #000000 !important;
 }
 
-.image{
-    margin-left: 8%;
-    margin-right: 4%;
-    height: 400px;
-    width: 84%;
-    position: center;
-}
+/*content part*/
 
-.line-2{
-    margin-bottom: 33px;
-}
 
-.topic-header{
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    margin-bottom: 16px;
+    background-color: #fff;
+    color: #10182f;
+    padding: 4em;
+}
+
+.container h1 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 2em;
+    font-weight: 700;
+}
+
+.card-box {
+    display: flex;
+    width: 1200px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.card,
+.product-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    width: 320px;
+    margin-bottom: 2%;
+    transition: transform 500ms;
+}
+
+.card {
+    padding: 2em;
+}
+
+.card-header img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-body,
+.product-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    min-height: 100px;
+}
+
+.card-body p {
+    font-size: 15px;
+}
+
+.card-body h4{
     font-family: 'Cinzel', serif;
-    letter-spacing: 2.5px;
 }
 
-.section{
-    text-align:justify;
-    margin-left: 8%;
-    margin-right: 8%;
-}
-
-.hotel-view{
-    margin-right: 2%;
-    height: 190px;
-    width: 390px;
-    float: left;
+.product-body {
+    text-align: left;
 }
 
 
-.about-content p{
-    font-size: 20px;
-    padding-top: 3.5%;
-}
 
-.see-more{
-    text-decoration: none;
+.product-body p {
     font-family: 'Cinzel', serif;
-    color:#6b6b6b;
-    margin: 5px 5px;
-    padding: 3px 10px;
-    border-color: #6b6b6b;
-    border-width: 1px;
-    border-style: solid;
-    letter-spacing: 1.5px;
-    word-spacing: 5px;
+    font-size: 13px;
+    margin: 0 0 40px;
 }
 
-.see-more:hover{
-    padding: 5px 15px;
-    font-size: 22px;
-    border-color: #000000;
-    color:#000000;
-    transition: all .5s ease;
+.card:hover:hover {
+    transform: scale(1.03);
 }
+
+
+
+/* Footer part*/
 
 .line-3{
     margin-top: 40px;
     margin-bottom: 33px;
 }
-
-.service-picture{
-    margin-left: 2%;
-    height: 190px;
-    width: 390px;
-    float: right;
-}
-
-.service-content p{
-    font-size: 20px;
-    padding-top: 3.5%;
-}
-
-
-/* Footer part*/
-
 
 footer{
     bottom: 0%;
@@ -305,10 +249,15 @@ footer{
     margin: 0px 25px;
 }
 
+.footer-contact img:hover{
+    height: 43px;
+    width: 43px;
+}
+
+
 .copyright{
     margin-top: 10px;
     padding: 10px;
     color:#ffffff;
     background-color: black;
 }
-

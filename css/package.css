@@ -123,29 +123,76 @@
     position: center center;
     height: 5px;
     opacity: 100%;
-    color: #000000 !important;
+    color: #696969 !important;
 }
 
-.line-3{
-    margin-top: 40px;
-    margin-bottom: 33px;
-}
+/*content-area*/
 
-/*content-are*/
 
-.about-content{
+.wrapper{
+    margin:35%;
     margin: 1% 8%;
-    font-size: 20px;
+    box-align:center !important;
+	width: 84%;
+	background: #fff;
+	padding: 25px;
+	border-radius: 5px;
+	box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+    shape-rendering:auto;
 }
 
-.about-content img{
-    float: left;
-    padding-right: 15px;
-    height: 330px;
-    line-height: 88%;
+
+.wrapper .input_field{
+	margin-bottom: 10px;
+}
+
+.wrapper .input_field input[type="text"],
+.wrapper textarea{
+	width: 100%;
+	border: 1px solid #e0e0e0;
+	padding: 10px;
+}
+
+.wrapper textarea{
+	height: 80px;
+	resize: none;
 }
 
 
+.wrapper .btn button[type="submit"]{
+	border: 0;
+	margin-top: 15px;
+	padding: 10px;
+	width: 100%;
+	background: #429249;
+	color: white;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+.wrapper .btn button[type="reset"]{
+	border: 0;
+	margin-top: 15px;
+	padding: 10px;
+	width: 100%;
+	background: #429249;
+	color: white;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+.wrapper #error_message{
+	margin-bottom: 20px;
+	padding: 0px;
+	background: #fe8b8e;
+	text-align: center;
+	font-size: 14px;
+	transition: all 0.5s ease;
+}
+
+.wrapper .btn button:hover{
+    background-color: rgb(21, 78, 35);
+}
 
 
 /* Footer part*/
@@ -184,9 +231,20 @@ footer{
     margin: 0px 25px;
 }
 
+.footer-contact img:hover{
+    height: 43px;
+    width: 43px;
+}
+
+
 .copyright{
     margin-top: 10px;
     padding: 10px;
     color:#ffffff;
     background-color: black;
+}
+
+.line-3{
+    margin-top: 40px;
+    margin-bottom: 33px;
 }
