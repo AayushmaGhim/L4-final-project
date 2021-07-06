@@ -188,7 +188,7 @@
 .hotel-view{
     margin-right: 2%;
     height: 190px;
-    width: 390px;
+    width: 50%;
     float: left;
 }
 
@@ -227,7 +227,7 @@
 .service-picture{
     margin-left: 2%;
     height: 190px;
-    width: 390px;
+    width: 50%;
     float: right;
 }
 
