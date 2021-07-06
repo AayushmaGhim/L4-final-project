@@ -16,7 +16,7 @@
     .navbar-nav{
         border-bottom: solid 2px black;
     }
-    
+
     .nav-link{
         font-size: 25px;
         font-family: 'Montserrat', sans-serif;
@@ -126,50 +126,88 @@
     color: #000000 !important;
 }
 
+/*content part*/
 
 
-/*Content area*/
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+    color: #10182f;
+    padding: 4em;
+}
 
-input[type=text], select, textarea {
+.container h1 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 2em;
+    font-weight: 700;
+}
+
+.card-box {
+    display: flex;
+    width: 1200px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.card,
+.product-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    width: 320px;
+    margin-bottom: 2%;
+    transition: transform 500ms;
+}
+
+.card {
+    padding: 2em;
+}
+
+.card-header img {
     width: 100%;
-    padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-  }
+    height: 200px;
+    object-fit: cover;
+}
 
-  input[type=submit] {
-    background-color: #4CAF50;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
+.card-body,
+.product-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    min-height: 100px;
+}
 
-  input[type=submit]:hover {
-    background-color: #45a049 !important;
-  }
+.card-body p {
+    font-size: 15px;
+}
 
-  .contact {
-    padding: 20px;
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    margin: 1% 8%;
-  }
+.card-body h4{
+    font-family: 'Cinzel', serif;
+}
 
-  .info{
-      padding:6px !important;
-  }
+.product-body {
+    text-align: left;
+}
 
-  .map{
-      margin-left:8%;
-  }
 
-  
+
+.product-body p {
+    font-family: 'Cinzel', serif;
+    font-size: 13px;
+    margin: 0 0 40px;
+}
+
+.card:hover:hover {
+    transform: scale(1.03);
+}
+
+
 
 /* Footer part*/
 
@@ -177,7 +215,6 @@ input[type=text], select, textarea {
     margin-top: 40px;
     margin-bottom: 33px;
 }
-
 
 footer{
     bottom: 0%;

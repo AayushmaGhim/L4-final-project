@@ -27,6 +27,10 @@
     li{
         display: grid;
     }
+    .navbar-nav{
+        border-bottom: solid 2px black;
+    }
+    
     .nav-link{
         font-size: 25px;
         font-family: 'Montserrat', sans-serif;
@@ -307,3 +311,4 @@ footer{
     color:#ffffff;
     background-color: black;
 }
+

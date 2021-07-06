@@ -16,7 +16,7 @@
     .navbar-nav{
         border-bottom: solid 2px black;
     }
-    
+
     .nav-link{
         font-size: 25px;
         font-family: 'Montserrat', sans-serif;
@@ -126,57 +126,29 @@
     color: #000000 !important;
 }
 
-
-
-/*Content area*/
-
-input[type=text], select, textarea {
-    width: 100%;
-    padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-  }
-
-  input[type=submit] {
-    background-color: #4CAF50;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-
-  input[type=submit]:hover {
-    background-color: #45a049 !important;
-  }
-
-  .contact {
-    padding: 20px;
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    margin: 1% 8%;
-  }
-
-  .info{
-      padding:6px !important;
-  }
-
-  .map{
-      margin-left:8%;
-  }
-
-  
-
-/* Footer part*/
-
 .line-3{
     margin-top: 40px;
     margin-bottom: 33px;
 }
+
+/*content-are*/
+
+.about-content{
+    margin: 1% 8%;
+    font-size: 20px;
+}
+
+.about-content img{
+    float: left;
+    padding-right: 15px;
+    height: 330px;
+    line-height: 88%;
+}
+
+
+
+
+/* Footer part*/
 
 
 footer{
