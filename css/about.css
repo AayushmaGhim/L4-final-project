@@ -141,7 +141,8 @@
 .about-content img{
     float: left;
     padding-right: 15px;
-    height: 330px;
+    width: 45%;
+    height: 300px;
     line-height: 88%;
 }
 
