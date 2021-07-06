@@ -135,7 +135,7 @@
 
 .about-content{
     margin: 1% 8%;
-    font-size: 20px;
+    font-size: 23px;
 }
 
 .about-content img{
@@ -184,10 +184,8 @@ footer{
     width: 40px;
     margin: 0px 25px;
 }
-
 .footer-contact img:hover{
-    height: 43px;
-    width: 43px;
+    transform: scale(1.03);
 }
 
 

@@ -232,10 +232,8 @@ footer{
 }
 
 .footer-contact img:hover{
-    height: 43px;
-    width: 43px;
+    transform: scale(1.03);
 }
-
 
 .copyright{
     margin-top: 10px;

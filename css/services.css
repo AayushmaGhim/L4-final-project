@@ -203,9 +203,6 @@
     margin: 0 0 40px;
 }
 
-.card:hover:hover {
-    transform: scale(1.03);
-}
 
 
 
@@ -250,8 +247,7 @@ footer{
 }
 
 .footer-contact img:hover{
-    height: 43px;
-    width: 43px;
+    transform: scale(1.03);
 }
 
 
